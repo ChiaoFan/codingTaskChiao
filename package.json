@@ -1,0 +1,28 @@
+{
+  "name": "codingtaskchiao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server",
+    "build:prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChiaoFan/codingTaskChiao.git"
+  },
+  "author": "Chiao Fan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChiaoFan/codingTaskChiao/issues"
+  },
+  "homepage": "https://github.com/ChiaoFan/codingTaskChiao#readme",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
